@@ -101,7 +101,7 @@ header{
 
 .contaniner{
     width: 100%;
-    min-height: 640px;
+    min-height: 990px;
     position: relative;
     display: flex;
     align-items: center;

@@ -165,6 +165,7 @@ header{
     height: 3px;
     width: 100%;
     background: var(--main-color);
+    margin-top: 10px;
 }
 .toutMesimages{
     display: flex;
@@ -181,14 +182,65 @@ header{
 .case1{
     height: 369px;
     width: 270px;
-    border: 1px solid red;
+    border: 1px solid white;
 }
 .demiCase{
    width: 268px;
    height: 290px;
-   border: 1px solid yellow;
 }
 .demiCase img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+}
+
+.text2{
+    margin-top: 5%;
+}
+.newsletter{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+    margin-top: 50px;
+}
+
+.newsletter h2{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.newsletter form{
+    background: var(--bg-color);
+    padding: 10px;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.newsletter form input{
+    border: none;
+    outline: none;
+}
+
+.newsletter form .email{
+    width: 280px;
+}
+.barres{
+    height: 70px;
+    width: 100%;
+    margin-top: 25px;
+    background: white;
+}
+
+.barres p{
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
 }

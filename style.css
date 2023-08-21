@@ -244,3 +244,65 @@ header{
     align-items: center;
     padding-top: 20px;
 }
+
+
+@media screen and (max-width: 1080px) {
+    
+    .home-text {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (max-width: 991px) {.conatiner img{
+    width: 100%;
+}
+    header {
+        padding: 18px 4%;
+    }
+    section{
+        padding: 50px 4%;
+    }
+    .home-text{
+        padding: 0 4%;
+    }
+
+.home-text h1{
+    font-size: 3rem;
+}
+}
+
+@media screen and (max-width: 774px) {
+    
+    header {
+        padding: 12px 4%;
+    }
+    #menu-icon{
+        display: initial;
+        color: var(--bg-color);
+    }
+    .navbar{
+        position: absolute;
+        top: -570px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        row-gap: 1.4rem;
+        padding: 20px;
+        box-shadow: 4px 4px 0 4px rgb(14 55 54/ 15%);
+        transition: 0.2s all linear;
+        text-align: center;
+    }
+    .navbar a{
+        width: 100%;
+        color: var(--text-color);
+    }
+    .navbar a:hover{
+        color: var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+    }
+    .navbar a::after{
+        display: none;
+    }
+}

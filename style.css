@@ -197,6 +197,10 @@ header{
 .text2{
     margin-top: 5%;
 }
+
+.text2 h1{
+    font-size: 1rem;
+}
 .newsletter{
     max-width: 968px;
     margin-left: auto;

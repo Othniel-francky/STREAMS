@@ -284,6 +284,24 @@ header{
 
 
 
+@media screen and (max-width: 1361px) {
+    
+    .toutMesimages {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        gap: 5px;
+        grid-auto-rows: minmax(150px);
+    }
+}
+@media screen and (max-width: 1026px) {
+    
+    .toutMesimages {
+        display: grid;
+        grid-template-columns: repeat(20, 1fr);
+        gap: 5px;
+        grid-auto-rows: minmax(150px);
+    }
+}
 
 @media screen and (max-width: 1080px) {
     

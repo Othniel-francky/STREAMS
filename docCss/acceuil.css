@@ -34,6 +34,7 @@ header{
     padding: 20px 100px;
     transition: 0.5s;
     /* background: var(--main-color); */
+    background: #020307;
 }
 
 .logo{
@@ -97,6 +98,54 @@ header{
 }
 .btn:hover{
     background: #ff2c1f;
+}
+
+form{
+    background: grey;
+    border-radius: 25px;
+    position: relative;
+}
+
+h1{
+    color: white;
+    padding: 15px;
+    text-shadow: 2px 2px 2px black;
+}
+
+input{
+    width: 100%;
+    height: 10%;
+    display: block;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 8px 40px 8px 20px;
+    border: none;
+    /* box-shadow: 0 5px 8px 3px black; */
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+
+button i{
+    color: rgb(93, 94, 95);
+}
+
+button:hover i{
+    color: rgb(162, 163, 163);
 }
 
 .contaniner{
@@ -195,9 +244,41 @@ header{
 }
 .toutMesimages{
     display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
+    width: 100%;
+    max-width: 1800px;
+    grid-template-columns: repeat(4,1fr);
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+
 }
+
+.toutMesimages .case1{
+    width: 330px;
+    margin: 20px;
+    border: 1px solid white;
+}
+
+
+
+.autresContenu{
+    display: flex;
+    width: 100%;
+    max-width: 1800px;
+    grid-template-columns: repeat(4,1fr);
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.autresContenu .case1{
+    width: 330px;
+    margin: 20px;
+    border: 1px solid white;
+}
+
+
 
 .autresContenu{
     display: flex;
@@ -205,13 +286,9 @@ header{
     margin-top: 15px;
 }
 
-.case1{
-    height: 369px;
-    width: 270px;
-    border: 1px solid white;
-}
+
 .demiCase{
-   width: 268px;
+   width: 100%;
    height: 290px;
 }
 .demiCase img{
@@ -284,7 +361,7 @@ header{
 
 
 
-@media screen and (max-width: 1361px) {
+/* @media screen and (max-width: 1361px) {
     
     .toutMesimages {
         display: grid;
@@ -301,7 +378,7 @@ header{
         gap: 5px;
         grid-auto-rows: minmax(150px);
     }
-}
+} */
 
 @media screen and (max-width: 1080px) {
     

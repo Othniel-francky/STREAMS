@@ -1,297 +1,521 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./docCss/acceuil.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./docCss/acceuil.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <a href="#" class="logo">
-            <i class='bx bxs-movie'></i>MA CHAINE
-        </a>
-        <div class="bx bx-menu" id="menu-icon"></div>
+      <a href="#" class="logo"> <i class="bx bxs-movie"></i>MA CHAINE </a>
+      <div class="bx bx-menu" id="menu-icon"></div>
 
-        <ul class="navbar">
-            <li><a href="./film.html" class="Films-active">Films</a></li>
-            <li><a href="./serie.html">Series</a></li>
-            <li><a href="./humours.html">Humours</a></li>
-            <li><a href="./animes.html">Animes</a></li>
-        </ul>
-        <a href="./connexion.html" class="btn">Sign In</a>
+      <ul class="navbar">
+        <li><a href="./film.html" class="Films-active">Films</a></li>
+        <li><a href="./serie.html">Series</a></li>
+        <li><a href="./humours.html">Humours</a></li>
+        <li><a href="./animes.html">Animes</a></li>
+      </ul>
+
+      <form>
+        <input type="text" name="" placeholder="Search..." />
+        <button type="submit">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
+
+      <a href="./connexion.html" class="btn">Deconnexion</a>
+      <a href="./connexion.html" class="btn">Recharger</a>
     </header>
     <section class="home">
-        <div class="contaniner">
-            <img src="./Image/spiderAcceuil.jpg" alt="">
-            <div class="home-text">
-                <span>Univers Marvel</span>
-                <h1>Avengers: <br> Infinity War</h1>
-                <a href="./connexion.html" class="btn">Regarder</a>
-                <a href="./vidéo.html" class="play"><i class="bx bx-play"></i></a>
-            </div>
+      <div class="contaniner">
+        <img src="./Image/spiderAcceuil.jpg" alt="" />
+        <div class="home-text">
+          <span>Univers Marvel</span>
+          <h1>
+            Avengers: <br />
+            Infinity War
+          </h1>
+          <a href="./vidéo.html" class="btn">Regarder</a>
+          <a href="./vidéo.html" class="play"><i class="bx bx-play"></i></a>
         </div>
+      </div>
     </section>
 
     <div class="contain">
-        <div class="text">
-            <h1>Disponible cette Semaine</h1>
-            <div class="barre"></div>
+      <div class="text">
+        <h1>Disponible cette Semaine</h1>
+        <div class="barre"></div>
+      </div>
+
+      <div class="toutMesimages">
+        <div class="case1">
+          <div class="demiCase">
+            <img src="./Image/film1.jpg" alt="" />
+          </div>
+          <div class="icone">
+            <div class="pouTexte">
+              <h3>L'arrivée de Franck</h3>
+              <span>120 min | Action</span>
+            </div>
+            <div class="myIcon">
+              <a href="./vidéo.html" class="myIcon"
+                ><i class="bx bx-play"></i
+              ></a>
+            </div>
+          </div>
         </div>
 
-        <div class="toutMesimages">
-            <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/film1.jpg" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
+        <div class="case1">
+          <div class="demiCase">
+            <img src="./Image/film2.jpg" alt="" />
+          </div>
+          <div class="icone">
+            <div class="pouTexte">
+              <h3>L'arrivée de Franck</h3>
+              <span>120 min | Action</span>
             </div>
             <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
+              <a href="./vidéo.html" class="myIcon"
+                ><i class="bx bx-play"></i
+              ></a>
             </div>
-            </div>
-            </div>
-
-            <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/film2.jpg" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
-            </div>
-            <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
-            </div>
-            </div>
-            </div>
-
-           <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/film3.jpg" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
-            </div>
-            <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
-            </div>
-            </div>
-            </div>
-
-           <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/film3.jpg" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
-            </div>
-            <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
-            </div>
-            </div>
-            </div>
-
-            <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/image1.png" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
-            </div>
-            <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
-            </div>
-            </div>
-            </div>
-            
+          </div>
         </div>
 
-        <div class="autresContenu">
-           <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/chien humour.jpeg" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
+        <div class="case1">
+          <div class="demiCase">
+            <img src="./Image/film3.jpg" alt="" />
+          </div>
+          <div class="icone">
+            <div class="pouTexte">
+              <h3>L'arrivée de Franck</h3>
+              <span>120 min | Action</span>
             </div>
             <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
+              <a href="./vidéo.html" class="myIcon"
+                ><i class="bx bx-play"></i
+              ></a>
             </div>
-            </div>
-            </div>
-
-            <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/soulier de la mort.jpeg" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
-            </div>
-            <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
-            </div>
-            </div>
-            </div>
-
-            <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/serie25.jpg" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
-            </div>
-            <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
-            </div>
-            </div>
-            </div>
-
-            <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/film17.jpg" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
-            </div>
-            <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
-            </div>
-            </div>
-            </div>
-
-            <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/anime.jpg" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
-            </div>
-            <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
-            </div>
-            </div>
-            </div>
-            
+          </div>
         </div>
 
-        <div class="text2">
-            <h1>Les plus suivis</h1>
-            <div class="barre"></div>
+        <div class="case1">
+          <div class="demiCase">
+            <img src="./Image/film3.jpg" alt="" />
+          </div>
+          <div class="icone">
+            <div class="pouTexte">
+              <h3>L'arrivée de Franck</h3>
+              <span>120 min | Action</span>
+            </div>
+            <div class="myIcon">
+              <a href="./vidéo.html" class="myIcon"
+                ><i class="bx bx-play"></i
+              ></a>
+            </div>
+          </div>
         </div>
-        <div class="autresContenu">
 
-            <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/anime18.jpg" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
+        <div class="case1">
+          <div class="demiCase">
+            <img src="./Image/image1.png" alt="" />
+          </div>
+          <div class="icone">
+            <div class="pouTexte">
+              <h3>L'arrivée de Franck</h3>
+              <span>120 min | Action</span>
             </div>
             <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
+              <a href="./vidéo.html" class="myIcon"
+                ><i class="bx bx-play"></i
+              ></a>
             </div>
-            </div>
-            </div>
-
-            <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/film14.jpg" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
-            </div>
-            <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
-            </div>
-            </div>
-            </div>
-
-            <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/serie9.jpg" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
-            </div>
-            <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
-            </div>
-            </div>
-            </div>
-
-            <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/humour1.jpg" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
-            </div>
-            <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
-            </div>
-            </div>
-            </div>
-            
-            <div class="case1">
-                <div class="demiCase">
-                    <img src="./Image/humour19.jpeg" alt="">
-                </div>
-                <div class="icone">
-                    <div class="pouTexte">
-                <h3>L'arrivée de Franck</h3>
-                <span>120 min | Action</span>
-            </div>
-            <div class="myIcon">
-                <a href="./vidéo.html" class="myIcon"><i class="bx bx-play"></i></a>
-            </div>
-            </div>
-            </div>
-            
+          </div>
         </div>
+
+        <div class="case1">
+            <div class="demiCase">
+              <img src="./Image/chien humour.jpeg" alt="" />
+            </div>
+            <div class="icone">
+              <div class="pouTexte">
+                <h3>L'arrivée de Franck</h3>
+                <span>120 min | Action</span>
+              </div>
+              <div class="myIcon">
+                <a href="./vidéo.html" class="myIcon"
+                  ><i class="bx bx-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="case1">
+            <div class="demiCase">
+              <img src="./Image/soulier de la mort.jpeg" alt="" />
+            </div>
+            <div class="icone">
+              <div class="pouTexte">
+                <h3>L'arrivée de Franck</h3>
+                <span>120 min | Action</span>
+              </div>
+              <div class="myIcon">
+                <a href="./vidéo.html" class="myIcon"
+                  ><i class="bx bx-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="case1">
+            <div class="demiCase">
+              <img src="./Image/serie25.jpg" alt="" />
+            </div>
+            <div class="icone">
+              <div class="pouTexte">
+                <h3>L'arrivée de Franck</h3>
+                <span>120 min | Action</span>
+              </div>
+              <div class="myIcon">
+                <a href="./vidéo.html" class="myIcon"
+                  ><i class="bx bx-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="case1">
+            <div class="demiCase">
+              <img src="./Image/film1.jpg" alt="" />
+            </div>
+            <div class="icone">
+              <div class="pouTexte">
+                <h3>L'arrivée de Franck</h3>
+                <span>120 min | Action</span>
+              </div>
+              <div class="myIcon">
+                <a href="./vidéo.html" class="myIcon"
+                  ><i class="bx bx-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="case1">
+            <div class="demiCase">
+              <img src="./Image/film2.jpg" alt="" />
+            </div>
+            <div class="icone">
+              <div class="pouTexte">
+                <h3>L'arrivée de Franck</h3>
+                <span>120 min | Action</span>
+              </div>
+              <div class="myIcon">
+                <a href="./vidéo.html" class="myIcon"
+                  ><i class="bx bx-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="case1">
+            <div class="demiCase">
+              <img src="./Image/film3.jpg" alt="" />
+            </div>
+            <div class="icone">
+              <div class="pouTexte">
+                <h3>L'arrivée de Franck</h3>
+                <span>120 min | Action</span>
+              </div>
+              <div class="myIcon">
+                <a href="./vidéo.html" class="myIcon"
+                  ><i class="bx bx-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="case1">
+            <div class="demiCase">
+              <img src="./Image/soulier de la mort.jpeg" alt="" />
+            </div>
+            <div class="icone">
+              <div class="pouTexte">
+                <h3>L'arrivée de Franck</h3>
+                <span>120 min | Actiondffrtgyft</span>
+              </div>
+              <div class="myIcon">
+                <a href="./vidéo.html" class="myIcon"
+                  ><i class="bx bx-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      <div class="autresContenu">
+        <div class="case1">
+          <div class="demiCase">
+            <img src="./Image/chien humour.jpeg" alt="" />
+          </div>
+          <div class="icone">
+            <div class="pouTexte">
+              <h3>L'arrivée de Franck</h3>
+              <span>120 min | Action</span>
+            </div>
+            <div class="myIcon">
+              <a href="./vidéo.html" class="myIcon"
+                ><i class="bx bx-play"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="case1">
+          <div class="demiCase">
+            <img src="./Image/soulier de la mort.jpeg" alt="" />
+          </div>
+          <div class="icone">
+            <div class="pouTexte">
+              <h3>L'arrivée de Franck</h3>
+              <span>120 min | Action</span>
+            </div>
+            <div class="myIcon">
+              <a href="./vidéo.html" class="myIcon"
+                ><i class="bx bx-play"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="case1">
+          <div class="demiCase">
+            <img src="./Image/serie25.jpg" alt="" />
+          </div>
+          <div class="icone">
+            <div class="pouTexte">
+              <h3>L'arrivée de Franck</h3>
+              <span>120 min | Action</span>
+            </div>
+            <div class="myIcon">
+              <a href="./vidéo.html" class="myIcon"
+                ><i class="bx bx-play"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="case1">
+          <div class="demiCase">
+            <img src="./Image/film17.jpg" alt="" />
+          </div>
+          <div class="icone">
+            <div class="pouTexte">
+              <h3>L'arrivée de Franck</h3>
+              <span>120 min | Action</span>
+            </div>
+            <div class="myIcon">
+              <a href="./vidéo.html" class="myIcon"
+                ><i class="bx bx-play"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text2">
+        <h1>Les plus suivis</h1>
+        <div class="barre"></div>
+      </div>
+      <div class="autresContenu">
+        <div class="case1">
+          <div class="demiCase">
+            <img src="./Image/anime18.jpg" alt="" />
+          </div>
+          <div class="icone">
+            <div class="pouTexte">
+              <h3>L'arrivée de Franck</h3>
+              <span>120 min | Action</span>
+            </div>
+            <div class="myIcon">
+              <a href="./vidéo.html" class="myIcon"
+                ><i class="bx bx-play"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="case1">
+          <div class="demiCase">
+            <img src="./Image/film14.jpg" alt="" />
+          </div>
+          <div class="icone">
+            <div class="pouTexte">
+              <h3>L'arrivée de Franck</h3>
+              <span>120 min | Action</span>
+            </div>
+            <div class="myIcon">
+              <a href="./vidéo.html" class="myIcon"
+                ><i class="bx bx-play"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="case1">
+          <div class="demiCase">
+            <img src="./Image/serie9.jpg" alt="" />
+          </div>
+          <div class="icone">
+            <div class="pouTexte">
+              <h3>L'arrivée de Franck</h3>
+              <span>120 min | Action</span>
+            </div>
+            <div class="myIcon">
+              <a href="./vidéo.html" class="myIcon"
+                ><i class="bx bx-play"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="case1">
+          <div class="demiCase">
+            <img src="./Image/humour1.jpg" alt="" />
+          </div>
+          <div class="icone">
+            <div class="pouTexte">
+              <h3>L'arrivée de Franck</h3>
+              <span>120 min | Action</span>
+            </div>
+            <div class="myIcon">
+              <a href="./vidéo.html" class="myIcon"
+                ><i class="bx bx-play"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="case1">
+          <div class="demiCase">
+            <img src="./Image/humour19.jpeg" alt="" />
+          </div>
+          <div class="icone">
+            <div class="pouTexte">
+              <h3>L'arrivée de Franck</h3>
+              <span>120 min | Action</span>
+            </div>
+            <div class="myIcon">
+              <a href="./vidéo.html" class="myIcon"
+                ><i class="bx bx-play"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="case1">
+            <div class="demiCase">
+              <img src="./Image/anime18.jpg" alt="" />
+            </div>
+            <div class="icone">
+              <div class="pouTexte">
+                <h3>L'arrivée de Franck</h3>
+                <span>120 min | Action</span>
+              </div>
+              <div class="myIcon">
+                <a href="./vidéo.html" class="myIcon"
+                  ><i class="bx bx-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="case1">
+            <div class="demiCase">
+              <img src="./Image/film14.jpg" alt="" />
+            </div>
+            <div class="icone">
+              <div class="pouTexte">
+                <h3>L'arrivée de Franck</h3>
+                <span>120 min | Action</span>
+              </div>
+              <div class="myIcon">
+                <a href="./vidéo.html" class="myIcon"
+                  ><i class="bx bx-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="case1">
+            <div class="demiCase">
+              <img src="./Image/serie9.jpg" alt="" />
+            </div>
+            <div class="icone">
+              <div class="pouTexte">
+                <h3>L'arrivée de Franck</h3>
+                <span>120 min | Action</span>
+              </div>
+              <div class="myIcon">
+                <a href="./vidéo.html" class="myIcon"
+                  ><i class="bx bx-play"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+      </div>
     </div>
 
     <section class="newsletter">
-        <h2>Suscribe to Get  <br> Newsletter </h2>
-        <form action="">
-            <input type="email" placeholder="email...">
-            <input type="submit" value="Suscribe" class="btn">
-        </form>
+      <h2>
+        Suscribe to Get <br />
+        Newsletter
+      </h2>
+      <form action="">
+        <input type="email" placeholder="email..." />
+        <input type="submit" value="Suscribe" class="btn" />
+      </form>
     </section>
     <footer>
-        <div class="barres">
-            <p>© 2023 Copyright: <a href="https://othniel-francky.github.io/STREAMS/">https://othniel-francky.github.io/STREAMS/</a></p>
-        </div>
+      <div class="barres">
+        <p>
+          © 2023 Copyright:
+          <a href="https://othniel-francky.github.io/STREAMS/"
+            >https://othniel-francky.github.io/STREAMS/</a
+          >
+        </p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

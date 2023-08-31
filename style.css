@@ -35,7 +35,10 @@ header{
     transition: 0.5s;
     /* background: var(--main-color); */
 }
-
+.part{
+    display: flex;
+    gap: 50px;
+}
 .logo{
     font-size: 1.1rem;
     font-weight: 600;
